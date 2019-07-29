@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30002c76-2457-42bd-bf22-7cea751abda6" name="Default Changelist" comment="" />
+    <list default="true" id="30002c76-2457-42bd-bf22-7cea751abda6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/Friend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/FriendId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/FriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/MessageChatResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/FriendResponseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/socket/SocketManagaer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,11 +61,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/FriendResponseRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,6 +108,9 @@
       <find>?useSSL=false</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -93,11 +126,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/UserProfile.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/manager/UserManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/MessageChatResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/socket/SocketManagaer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/FriendResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/Friend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/FriendId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/FriendResponseRepository.java" />
       </list>
     </option>
   </component>
@@ -124,6 +163,7 @@
     <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -235,6 +275,15 @@
               <item name="serverAppChat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pub" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lupinkis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverAppChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -249,6 +298,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
@@ -301,12 +351,12 @@
       <workItem from="1563960601212" duration="7620000" />
       <workItem from="1564063279389" duration="1000" />
       <workItem from="1564063282424" duration="12000" />
-      <workItem from="1564068707322" duration="6737000" />
+      <workItem from="1564068707322" duration="8402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19650000" />
+    <option name="totallyTimeSpent" value="21315000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,13 +524,6 @@
     </entry>
     <entry file="das://294f60d1-0a57-437c-b3ed-7f6a643be52e/schema/data_chat/table/user" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -591,13 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/BaseResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -605,6 +645,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/MessageChatResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/socket/SocketManagaer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/UserProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/Friend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/FriendId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -622,27 +726,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/BaseResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/database/UserProfile.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="105">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/model/response/FriendResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/UserProfileRepository.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="268">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/appchat/pub/repository/FriendResponseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
