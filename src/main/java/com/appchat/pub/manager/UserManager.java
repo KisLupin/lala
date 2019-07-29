@@ -3,7 +3,7 @@ package com.appchat.pub.manager;
 import com.appchat.pub.model.database.UserProfile;
 import com.appchat.pub.model.request.LoginRequest;
 import com.appchat.pub.repository.UserProfileRepository;
-import com.appchat.pub.model.response.BaseResponse;
+import com.appchat.pub.response.BaseResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

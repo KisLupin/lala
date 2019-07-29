@@ -1,6 +1,6 @@
 package com.appchat.pub.socket;
 
-import com.appchat.pub.model.response.MessageChatResponse;
+import com.appchat.pub.response.MessageChatResponse;
 import com.corundumstudio.socketio.AckRequest;
 import com.corundumstudio.socketio.Configuration;
 import com.corundumstudio.socketio.SocketIOClient;

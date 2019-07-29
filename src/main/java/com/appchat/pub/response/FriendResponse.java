@@ -1,4 +1,4 @@
-package com.appchat.pub.model.response;
+package com.appchat.pub.response;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
